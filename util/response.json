@@ -1,0 +1,309 @@
+{
+  "trip": {
+    "locations": [
+      {
+        "type": "break",
+        "lat": 40.7041,
+        "lon": -73.9867,
+        "city": "right",
+        "original_index": 0
+      },
+      {
+        "type": "break",
+        "lat": 40.768077,
+        "lon": -73.981409,
+        "original_index": 1
+      }
+    ],
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "type": 2,
+            "instruction": "Drive south on Jay Street.",
+            "verbal_pre_transition_instruction": "Drive south on Jay Street. Then Turn right onto Water Street.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "street_names": [
+              "Jay Street"
+            ],
+            "time": 13.199,
+            "length": 0.109,
+            "cost": 30.159,
+            "begin_shape_index": 0,
+            "end_shape_index": 2,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto Water Street.",
+            "verbal_transition_alert_instruction": "Turn right onto Water Street.",
+            "verbal_pre_transition_instruction": "Turn right onto Water Street. Then Turn left onto Pearl Street.",
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "street_names": [
+              "Water Street"
+            ],
+            "time": 14.875,
+            "length": 0.08,
+            "cost": 34.549,
+            "begin_shape_index": 2,
+            "end_shape_index": 3,
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Pearl Street.",
+            "verbal_transition_alert_instruction": "Turn left onto Pearl Street.",
+            "verbal_pre_transition_instruction": "Turn left onto Pearl Street.",
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "street_names": [
+              "Pearl Street"
+            ],
+            "time": 46.978,
+            "length": 0.341,
+            "cost": 142.335,
+            "begin_shape_index": 3,
+            "end_shape_index": 14,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right toward Brooklyn Bridge.",
+            "verbal_transition_alert_instruction": "Turn right toward Brooklyn Bridge.",
+            "verbal_pre_transition_instruction": "Turn right toward Brooklyn Bridge.",
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "street_names": [
+              "Brooklyn Bridge"
+            ],
+            "time": 133.594,
+            "length": 1.814,
+            "cost": 175.724,
+            "begin_shape_index": 14,
+            "end_shape_index": 37,
+            "sign": {},
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 18,
+            "instruction": "Take the ramp on the right toward Franklin D Roosevelt Drive/Pearl Street/Franklin D Roosevelt Drive North.",
+            "verbal_transition_alert_instruction": "Take the ramp on the right toward Franklin D Roosevelt Drive.",
+            "verbal_pre_transition_instruction": "Take the ramp on the right toward Franklin D Roosevelt Drive, Pearl Street. Then Keep right to take FDR Drive.",
+            "time": 9.038,
+            "length": 0.12,
+            "cost": 10.125,
+            "begin_shape_index": 37,
+            "end_shape_index": 64,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Franklin D Roosevelt Drive"
+                },
+                {
+                  "text": "Pearl Street"
+                },
+                {
+                  "text": "Franklin D Roosevelt Drive North"
+                }
+              ]
+            },
+            "verbal_multi_cue": true,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 23,
+            "instruction": "Keep right to take FDR Drive.",
+            "verbal_transition_alert_instruction": "Keep right to take FDR Drive.",
+            "verbal_pre_transition_instruction": "Keep right to take FDR Drive.",
+            "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+            "street_names": [
+              "FDR Drive"
+            ],
+            "time": 332.995,
+            "length": 6.205,
+            "cost": 409.938,
+            "begin_shape_index": 64,
+            "end_shape_index": 233,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 20,
+            "instruction": "Take exit 9 on the right onto East 42nd Street.",
+            "verbal_transition_alert_instruction": "Take exit 9 on the right.",
+            "verbal_pre_transition_instruction": "Take exit 9 on the right onto East 42nd Street.",
+            "time": 28.527,
+            "length": 0.662,
+            "cost": 31.966,
+            "begin_shape_index": 233,
+            "end_shape_index": 258,
+            "sign": {
+              "exit_number_elements": [
+                {
+                  "text": "9"
+                }
+              ],
+              "exit_branch_elements": [
+                {
+                  "text": "East 42nd Street",
+                  "consecutive_count": 1
+                },
+                {
+                  "text": "1st Avenue"
+                }
+              ]
+            },
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 9,
+            "instruction": "Bear right onto East 42nd Street.",
+            "verbal_transition_alert_instruction": "Bear right onto East 42nd Street.",
+            "verbal_pre_transition_instruction": "Bear right onto East 42nd Street.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "street_names": [
+              "East 42nd Street"
+            ],
+            "time": 47.447,
+            "length": 0.457,
+            "cost": 108.471,
+            "begin_shape_index": 258,
+            "end_shape_index": 269,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto 3rd Avenue.",
+            "verbal_transition_alert_instruction": "Turn right onto 3rd Avenue.",
+            "verbal_pre_transition_instruction": "Turn right onto 3rd Avenue.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "street_names": [
+              "3rd Avenue"
+            ],
+            "time": 111.712,
+            "length": 1.203,
+            "cost": 159.847,
+            "begin_shape_index": 269,
+            "end_shape_index": 286,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto East 57th Street.",
+            "verbal_transition_alert_instruction": "Turn left onto East 57th Street.",
+            "verbal_pre_transition_instruction": "Turn left onto East 57th Street.",
+            "verbal_post_transition_instruction": "Continue for 900 meters.",
+            "street_names": [
+              "East 57th Street"
+            ],
+            "time": 72.692,
+            "length": 0.927,
+            "cost": 128.156,
+            "begin_shape_index": 286,
+            "end_shape_index": 294,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 10,
+            "instruction": "Turn right onto 6th Avenue/Avenue of the Americas.",
+            "verbal_transition_alert_instruction": "Turn right onto 6th Avenue.",
+            "verbal_pre_transition_instruction": "Turn right onto 6th Avenue, Avenue of the Americas.",
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "street_names": [
+              "6th Avenue",
+              "Avenue of the Americas"
+            ],
+            "time": 21.989,
+            "length": 0.171,
+            "cost": 60.697,
+            "begin_shape_index": 294,
+            "end_shape_index": 297,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 15,
+            "instruction": "Turn left onto Central Park South.",
+            "verbal_transition_alert_instruction": "Turn left onto Central Park South.",
+            "verbal_pre_transition_instruction": "Turn left onto Central Park South.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "street_names": [
+              "Central Park South"
+            ],
+            "time": 43.913,
+            "length": 0.512,
+            "cost": 85.195,
+            "begin_shape_index": 297,
+            "end_shape_index": 318,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 26,
+            "instruction": "Enter Columbus Circle and take the 1st exit.",
+            "verbal_transition_alert_instruction": "Enter Columbus Circle and take the 1st exit.",
+            "verbal_pre_transition_instruction": "Enter Columbus Circle and take the 1st exit.",
+            "street_names": [
+              "Columbus Circle"
+            ],
+            "time": 0.528,
+            "length": 0.005,
+            "cost": 8.808,
+            "begin_shape_index": 318,
+            "end_shape_index": 320,
+            "roundabout_exit_count": 1,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          },
+          {
+            "type": 4,
+            "instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination.",
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "time": 0,
+            "length": 0,
+            "cost": 0,
+            "begin_shape_index": 320,
+            "end_shape_index": 320,
+            "travel_mode": "drive",
+            "travel_type": "car"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "min_lat": 40.700089,
+          "min_lon": -74.003337,
+          "max_lat": 40.768077,
+          "max_lon": -73.967584,
+          "time": 877.492,
+          "length": 12.608,
+          "cost": 1385.976
+        },
+        "shape": "}dkslAr_xblCdTn@rg@zAy@lz@l_@z@~CH~CHb\\l@~IoAxNjC|v@zBbNJz@BdKZxEH?@GhQo@rm@YtFc@jEwAfGaBlDkDbGyAvE_EbGaI|LcA|AyIzK}KnOuLtOoIfLgIxKuIjLea@zk@qkLzyOiM|Pyh@ds@_cAbuAoChC_BnAuAbAuAt@_Bn@mAd@qA\\kAJ}@?{@Gy@Oy@Sy@a@w@s@u@cAq@oAg@{A[aBKsACaBD_BNyAV}Ab@mA`@y@n@_Av@y@jUiHlBo@nB{@vBeAjBaAlBgA|BwAzB_B|BeBlD}CpDmD`DsDrDuEnCuDteA{yAdAoA`A}@hAaAnAw@`Bq@|Ai@rAU~AKlXi@bBa@dBk@`B}@vA}@vAkAjAuAlAoBfAiB|@uBr@sBd@mB\\wBV}BPiCFaC@kBCkBIkBM{BYcC]gBg@iBi@eBmHkRaAmCeAwC{@iCw@gCw@oCy@}Cs@yC{@qDu@oDu@oDo@gDwCcQm@wDi@_Dg@oDe@cDi@kEc@cE]_Ee@kF_AyLmGq|@g@oGe@wF{LmrA]eG_@aH_@qGc@mGg@cHg]giEmD_h@aS{mD{HatAgDwd@aCgdAmGeuBgDgdAcB{VoD}VwBmM}BoLsDmKaLoXsFyJmNyQcToRmMuJazDuaBqiAyd@{TiHkFuAqWqGmQuDuUmEwSgC{OoA{[wCgfBeKga@gD}[mBcQeCwMyCaNoE}LiFkUwLqcAkj@_o@c]qa@cT_]{NiK{DqLsDwQaDwPeBaaAsHcMo@eM]oJDcIz@sOrCaJzB{IrDcM|G}FpEqHfGmLrN{c@~k@kJtIwH`GqKbHsKlEyJjDeMhCyJdBuSfDacBhXmeA|QwUjD}RtAmOUaG]aHw@kNuCwMsEqNmG{K}JcYmOse@kZyWyQ{NaH_OqFe]yIca@oIs`@eGab@iFcq@kIaQsBiTyFc\\cN_[oPsZgQ}QmRu[{S_JsGmj@sd@ge@k`@etAihAqAu@}@_@iA[sAU}@?kAF{@Fk@Jw@Xy@f@g@^c@j@g@v@g@|@o@dAc@dAsKl\\aRxl@NtEiFbPmAhDmH`Uec@hsAeG~QqBpGyBbH_]dfA_B`FwEzNqN~b@qh@g]_f@m[gf@q[cf@o[ie@{Z}f@c\\af@m[kf@u[{e@i[yJsGcZwRmf@u[if@u[if@s[eRkIqSyMsi@i]wRrm@_Tbq@cg@d~AmD|Kmf@r|Aoi@ncB{w@nfCyZfaA_k@g_@ea@mWqEyAmBbGg@|A}FrQw@fCiGjRuMx`@ia@pqAaBhF_BfF{EdOaCjHud@nwAiCxHg@t@m@|@gApAaA~@aBnAu@f@cAh@kAh@oA?K@"
+      }
+    ],
+    "summary": {
+      "has_time_restrictions": false,
+      "min_lat": 40.700089,
+      "min_lon": -74.003337,
+      "max_lat": 40.768077,
+      "max_lon": -73.967584,
+      "time": 877.492,
+      "length": 12.608,
+      "cost": 1385.976
+    },
+    "status_message": "Found route between points",
+    "status": 0,
+    "units": "kilometers",
+    "language": "en-US"
+  }
+}
