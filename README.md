@@ -18,5 +18,7 @@ To build Valhalla, as well as the routing data, run the `./setup.sh` command aft
 * Build Valhalla tiles (routing indexes)
 * Combine all tiles into a `.tar` file
 
+**Note:** This step could take up to 30 minutes to complete, depending on your internet connection and compute resources.
+
 ## Start Valhalla
 To start Valhalla, after running the setup script, you can run `./start.sh` which should start the server at `http://localhost:8002`
